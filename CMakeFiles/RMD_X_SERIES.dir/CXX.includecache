@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yj/RMDXSERIES_WRAP/main.cpp
+RMDXCAN.h
+/home/yj/RMDXSERIES_WRAP/RMDXCAN.h
+

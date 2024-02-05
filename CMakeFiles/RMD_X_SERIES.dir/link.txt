@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/RMD_X_SERIES.dir/main.cpp.o  -o RMD_X_SERIES 
