@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0.1)
+project(RMD_X_SERIES)
+
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall")
+
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+add_executable(${PROJECT_NAME} main.cpp)
