@@ -2,7 +2,7 @@
 
 RMDSERIES::RMDSERIES(int l_MotorId, int l_MotorType)
 {
-  
+
 }
 
 RMDSERIES::~RMDSERIES()
@@ -15,9 +15,11 @@ int RMDSERIES::initMotor(int l_MotorId)
 
 }
 
-int RMDSERIES::canWriteCommand(_command l_Command, _bool waitForReply = true, unsigned long canTimeOut = 500000, unsigned int* g_ErrorCode)
+int RMDSERIES::canWriteCommand(const int l_Command, _bool waitForReply = true, unsigned long canTimeOut = 500000, unsigned int* g_ErrorCode)
 {
-  _command l_Message[8]={0};
+  const int l_Message[8]={0};
+  l_Message[0] = l_Command;
+  
 
 }
 
